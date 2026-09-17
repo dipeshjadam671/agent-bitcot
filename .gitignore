@@ -1,0 +1,25 @@
+# Environment variables and API keys
+.env
+.env.local
+*.env
+
+# Python byte code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/*.log
+*.log
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
